@@ -1,0 +1,12 @@
+*.fastq
+*.fasta
+*.fna
+*.log
+*.analysis.txt
+*.len
+*.sam
+*.bwt
+*.pac
+*.sa
+*.amb
+*.ann
