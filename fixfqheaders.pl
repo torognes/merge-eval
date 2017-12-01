@@ -16,6 +16,10 @@ while(<F>)
         print "\@ART:1:1:1:1:1:$seq $dir:N:0:\n";
         $seq++;
     }
+    elsif ($line % 4 == 3)
+    {
+        print "+\n";
+    }
     else
     {
         print $_;
